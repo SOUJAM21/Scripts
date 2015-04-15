@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// Timer creation and running
+/// </summary>
 public class Timer : MonoBehaviour {
 	public float Minutes;
 	private float seconds = 0;
@@ -11,8 +13,10 @@ public class Timer : MonoBehaviour {
 
 	public Color normalColor;
 	public Color warningColor;
-
-
+	
+	/// <summary>
+	/// Method of subtracting time
+	/// </summary>
 	void Update()
 	{
 		if (seconds <= 0) {
@@ -39,6 +43,9 @@ public class Timer : MonoBehaviour {
 		}
 
 	}
+	/// <summary>
+	/// Creates the timer through GUI
+	/// </summary>
 	void OnGUI()
 	{
 		GUI.skin = skin;

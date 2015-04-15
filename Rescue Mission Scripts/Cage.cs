@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+/// <summary>
+/// script for cage gameobject and its properties
+/// </summary>
 public class Cage : MonoBehaviour {
 	public AudioClip unlock;
 	public GameObject deathparticles;

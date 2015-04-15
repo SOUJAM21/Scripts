@@ -1,4 +1,5 @@
 ﻿#pragma strict
+// script for audio slider
 var hSliderValue : float = 0.0;
 function OnGUI()
 {

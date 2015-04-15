@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+/// script for key gameobject and properties
+/// </summary>
 public class Key : MonoBehaviour {
 	public GameObject GameManager;
 	public GameObject Victim;
